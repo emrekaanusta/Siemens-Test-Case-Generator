@@ -19,23 +19,23 @@ A lightweight Python tool that converts Siemens SIMATIC specification PDFs into 
 
 Tested on Python 3.11 (Windows).  Linux/macOS users can adapt the activate command accordingly.
 
-# 1. Clone the repository
+#1. Clone the repository
 $ git clone git@sabanci.edu:ekusta/pdf2json.git
 $ cd pdf2json
 
-# 2. Create and activate a virtual environment
+#2. Create and activate a virtual environment
 $ py -m venv .venv
 $ .venv\Scripts\activate  # Windows
 
-# 3. Install dependencies
+#3. Install dependencies
 $ pip install -r requirements.txt
 
-# 4. Add your OpenAI key
+#4. Add your OpenAI key
 $ echo OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx > key.env
 
-# 5. Launch the tool
+#5. Launch the tool
 $ python generate_test.py
-# Gradio interface opens at http://127.0.0.1:7860
+#Gradio interface opens at http://127.0.0.1:7860
 
 
 # Usage Tips
